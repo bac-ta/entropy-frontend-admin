@@ -2,7 +2,7 @@
 @import "variables";
 
 // Import CoreUI styles
-@import "~@coreui/coreui/scss/coreui.scss";
+@import "../../../node_modules/@coreui/coreui/scss/coreui";
 
 // Some temp fixes
 @import "fixes";
