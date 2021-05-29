@@ -1,7 +1,7 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
 
-const _nav =  [
+const _nav = [
   {
     _tag: 'CSidebarNavItem',
     name: 'Dashboard',
@@ -9,28 +9,34 @@ const _nav =  [
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'info',
-      text: 'NEW',
+      text: '☆',
     }
   },
   {
     _tag: 'CSidebarNavTitle',
-    _children: ['Theme']
+    _children: ["Resources"]
   },
   {
-    _tag: 'CSidebarNavItem',
-    name: 'Colors',
-    to: '/theme/colors',
-    icon: 'cil-drop',
+    _tag: "CSidebarNavItem",
+    name: "Posts",
+    to: "/posts",
+    icon: "cil-pencil",
   },
   {
-    _tag: 'CSidebarNavItem',
-    name: 'Typography',
-    to: '/theme/typography',
+    _tag: "CSidebarNavItem",
+    name: "Categories",
+    to: "/categories",
+    icon: 'cil-pencil',
+  },
+  {
+    _tag: "CSidebarNavItem",
+    name: "Tags",
+    to: "/tags",
     icon: 'cil-pencil',
   },
   {
     _tag: 'CSidebarNavTitle',
-    _children: ['Components']
+    _children: ['Category']
   },
   {
     _tag: 'CSidebarNavDropdown',
@@ -150,7 +156,7 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'Charts',
+    name: 'Data Analytics',
     to: '/charts',
     icon: 'cil-chart-pie'
   },
@@ -166,7 +172,7 @@ const _nav =  [
         to: '/icons/coreui-icons',
         badge: {
           color: 'success',
-          text: 'NEW',
+          text: '☆',
         },
       },
       {
@@ -216,7 +222,7 @@ const _nav =  [
     icon: 'cil-calculator',
     badge: {
       color: 'info',
-      text: 'NEW',
+      text: '☆',
     },
   },
   {
@@ -260,7 +266,7 @@ const _nav =  [
     icon: 'cil-ban',
     badge: {
       color: 'secondary',
-      text: 'NEW',
+      text: '☆',
     },
     addLinkClass: 'c-disabled',
     'disabled': true

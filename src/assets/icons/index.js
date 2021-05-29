@@ -1,41 +1,38 @@
-import { sygnet } from './sygnet'
-import { logo } from './logo'
+import {sygnet} from "./sygnet";
+import {logo} from "./logo";
+import {logoNegative} from "./logo-negative";
 
 import {
-  cibSkype,
-  cibFacebook,
-  cibTwitter,
-  cibLinkedin,
-  cibFlickr,
-  cibTumblr,
-  cibXing,
-  cibGithub,
-  cibStackoverflow,
-  cibYoutube,
-  cibDribbble,
-  cibInstagram,
-  cibPinterest,
-  cibVk,
-  cibYahoo,
   cibBehance,
-  cibReddit,
-  cibVimeo,
+  cibCcAmex,
   cibCcMastercard,
   cibCcVisa,
-  cibStripe,
-  cibPaypal,
+  cibDribbble,
+  cibFacebook,
+  cibFlickr,
+  cibGithub,
   cibGooglePay,
-  cibCcAmex
-} from '@coreui/icons'
-import {
-  cifUs,
+  cibInstagram,
+  cibLinkedin,
+  cibPaypal,
+  cibPinterest,
+  cibReddit,
+  cibSkype,
+  cibStackoverflow,
+  cibStripe,
+  cibTumblr,
+  cibTwitter,
+  cibVimeo,
+  cibVk,
+  cibXing,
+  cibYahoo,
+  cibYoutube,
   cifBr,
-  cifIn,
-  cifFr,
   cifEs,
-  cifPl
-} from '@coreui/icons'
-import {
+  cifFr,
+  cifIn,
+  cifPl,
+  cifUs,
   cilAlignCenter,
   cilAlignLeft,
   cilAlignRight,
@@ -50,32 +47,32 @@ import {
   cilBookmark,
   cilCalculator,
   cilCalendar,
-  cilCloudDownload,
   cilChartPie,
   cilCheck,
+  cilCheckCircle,
   cilChevronBottom,
   cilChevronLeft,
   cilChevronRight,
   cilChevronTop,
   cilCircle,
-  cilCheckCircle,
+  cilCloudDownload,
   cilCode,
   cilCommentSquare,
   cilCreditCard,
   cilCursor,
   cilCursorMove,
-  cilDrop,
   cilDollar,
+  cilDrop,
   cilEnvelopeClosed,
   cilEnvelopeLetter,
   cilEnvelopeOpen,
   cilEuro,
-  cilGlobeAlt,
-  cilGrid,
   cilFile,
   cilFullscreen,
   cilFullscreenExit,
+  cilGlobeAlt,
   cilGraph,
+  cilGrid,
   cilHome,
   cilInbox,
   cilIndentDecrease,
@@ -102,6 +99,7 @@ import {
   cilPencil,
   cilPeople,
   cilPhone,
+  cilPlus,
   cilPrint,
   cilPuzzle,
   cilSave,
@@ -124,13 +122,14 @@ import {
   cilUserFemale,
   cilUserFollow,
   cilUserUnfollow,
+  cilWarning,
   cilX,
-  cilXCircle,
-  cilWarning
+  cilXCircle
 } from '@coreui/icons'
 
 export const icons = Object.assign({}, {
   sygnet,
+  logoNegative,
   logo
 }, {
   cilAlignCenter,
@@ -223,7 +222,8 @@ export const icons = Object.assign({}, {
   cilUserUnfollow,
   cilX,
   cilXCircle,
-  cilWarning
+  cilWarning,
+  cilPlus
 }, {
   cifUs,
   cifBr,
